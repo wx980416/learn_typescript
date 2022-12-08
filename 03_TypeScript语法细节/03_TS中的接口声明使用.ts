@@ -1,26 +1,27 @@
-const name = "why"
+const name = "why";
 
-console.log("why")
-console.log(name)
+console.log("why");
+console.log(name);
 
 type PointType = {
-  x: number
-  y: number
-  z?: number
-}
+  x: number;
+  y: number;
+  z?: number;
+};
 
 // 接口: interface
 // 声明的方式
 interface PointType2 {
-  x: number
-  y: number
-  z?: number
+  x: number;
+  y: number;
+  z?: number;
+}
+interface PointType3 {
+  x: number;
+  y: number;
+  z?: number;
 }
 
-function printCoordinate(point: PointType2) {
-  
-}
+function printCoordinate(point: PointType2, point2: PointType3) {}
 
-
-export {}
-
+export {};

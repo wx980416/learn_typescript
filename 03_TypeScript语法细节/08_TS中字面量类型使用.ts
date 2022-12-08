@@ -1,17 +1,16 @@
 // 1.字面量类型的基本上
-const name: "why" = "why"
-let age: 18 = 18
+const name: "why" = "why";
+let age: 18 = 18;
 
 // 2.将多个字面量类型联合起来 |
-type Direction = "left" | "right" | "up" | "down"
-const d1: Direction = "left"
+type Direction = "left" | "right" | "up" | "down";
+const d1: Direction = "left";
 
 // 栗子: 封装请求方法
-type MethodType = "get" | "post"
-function request(url: string, method: MethodType) {
-}
+type MethodType = "get" | "GET" | "post" | "POST";
+function request(url: string, method: MethodType) {}
 
-request("http://codercba.com/api/aaa", "post")
+request("http://codercba.com/api/aaa", "post");
 
 // TS细节
 // const info = {
@@ -31,10 +30,9 @@ request("http://codercba.com/api/aaa", "post")
 // }
 const info2 = {
   url: "xxxx",
-  method: "post"
-} as const
+  method: "post",
+} as const;
 // xxx 本身就是一个string
-request(info2.url, info2.method)
+request(info2.url, info2.method);
 
-export {}
-
+export {};

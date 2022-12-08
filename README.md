@@ -1,2 +1,2 @@
 # learn_typescript
-my learn ts code(coderwhy )
+coderwhy 课程 ts 代码
