@@ -1,6 +1,7 @@
-function foo(...args: (string | number)[]) {
-
-}
+function foo(...args: (string | number)[]) {}
 
 foo(123, 321)
-foo("abc", 111, "cba")
+foo('abc', 111, 'cba')
+screen
+
+function foo2(...args: string[]) {}

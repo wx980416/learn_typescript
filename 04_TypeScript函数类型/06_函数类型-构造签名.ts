@@ -1,8 +1,7 @@
-class Person {
-}
+class Person {}
 
 interface ICTORPerson {
-  new (): Person
+  new (): Person // 构造签名
 }
 
 function factory(fn: ICTORPerson) {
