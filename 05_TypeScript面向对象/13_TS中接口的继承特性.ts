@@ -12,10 +12,20 @@ interface IKun extends IPerson {
   slogan: string
 }
 
+interface Iwangxin extends IPerson {
+  sex: string
+}
+
 const ikun: IKun = {
-  name: "why",
+  name: 'why',
   age: 18,
-  slogan: "你干嘛, 哎呦"
+  slogan: '你干嘛, 哎呦',
+}
+
+const m: Iwangxin = {
+  name: 'wangxin',
+  age: 23,
+  sex: 'boy',
 }
 
 export {}

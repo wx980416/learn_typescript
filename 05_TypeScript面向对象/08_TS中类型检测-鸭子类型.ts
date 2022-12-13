@@ -13,16 +13,17 @@ class Dog {
   running() {}
 }
 
+// Person和Dog都有name和age属性, 也都有running方法, 所以可以传入
+
 function printPerson(p: Person) {
   console.log(p.name, p.age)
 }
 
-printPerson(new Person("why", 18))
+printPerson(new Person('why', 18))
 // printPerson("abc")
-printPerson({name: "kobe", age: 30, running: function() {}})
-printPerson(new Dog("旺财", 3))
+printPerson({ name: 'kobe', age: 30, running: function () {} })
+printPerson(new Dog('旺财', 3))
 
-const person: Person = new Dog("果汁", 5)
-
+const person: Person = new Dog('果汁', 5)
 
 export {}

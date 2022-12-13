@@ -1,5 +1,7 @@
 interface ICollection {
-  // 索引签名
+  // 索引签名 用来描述对象的索引类型
+  // 索引签名的类型只能是 number 或 string
+  // 索引签名的作用是可以让对象可以通过索引来访问成员
   [index: string]: number
 
   length: number
@@ -9,7 +11,6 @@ const names: number[] = [111, 222, 333]
 console.log(names[0])
 console.log(names[1])
 console.log(names[2])
-
 
 function iteratorCollection(collection: ICollection) {
   console.log(collection[0])

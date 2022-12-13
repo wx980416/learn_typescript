@@ -12,9 +12,8 @@ interface IKun {
 }
 
 const p: IPerson = {
-  name: "why",
-  age: 18
+  name: 'why',
+  age: 18,
 }
 
 // p.age = 30
-
