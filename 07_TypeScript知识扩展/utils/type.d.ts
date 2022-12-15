@@ -5,3 +5,4 @@ interface IPerson {
 
 type IDType = number | string
 
+type IDate = string | number

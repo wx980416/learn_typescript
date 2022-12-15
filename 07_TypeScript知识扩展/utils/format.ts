@@ -7,6 +7,7 @@
   
 // }
 
+// namespace 
 export namespace price {
   export function format(price: string) {
     return "¥" + price

@@ -21,5 +21,6 @@ date.format("22222")
 
 // document.querySelector()
 
-document
+const date111:IDate = '111'
 
+document
