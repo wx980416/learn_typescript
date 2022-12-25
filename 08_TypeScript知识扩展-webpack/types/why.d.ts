@@ -15,7 +15,7 @@ declare class Person {
 
 // 作为一个第三方库为其他开发者提供类型声明文件 .d.ts => axios.d.ts
 
-
+ 
 // 声明文件模块
 declare module "*.png"
 declare module "*.jpg"
